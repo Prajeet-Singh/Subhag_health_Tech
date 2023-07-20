@@ -1,0 +1,151 @@
+/* styles/global.css */
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Add any additional global styles you need */
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.secondary-container{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #001824;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  /* background-image: linear-gradient(#001824, #001824); */
+  background: linear-gradient(300deg, #bdc3c7 ,#2c3e50 ,#001824);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+
+  
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.secondary-container h5{
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+  margin: 25px;
+  padding: 0;
+  color: #B2B2B2;
+}
+.List-container{
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+  justify-content: space-evenly;
+  width: 80%;
+
+    
+}
+.List-item{
+  display: flex;
+  align-items: center;
+  color: #f9f9f9;
+  gap: 0 40px;
+  
+  
+
+}
+.List-item p{
+  font-size: 38px;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  
+
+}
+.List-item svg{
+  height: 35px;
+  width: 35px;
+  background-color: #40C7B8;
+  padding: 15px;
+  border-radius: 50%;
+
+}
+.cpl{
+  position: absolute;
+  right: 10px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  /* bottom: 5px; */
+}
+.cpl img{
+   height: 60vh;
+ 
+}
+.AS-fech{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 100vw;
+  font-size: 40px;
+  color: #40C7B8 ;
+  padding: 0;
+  margin: 0;
+  
+  font-weight: bolder;
+  background-color: #fff;
+  
+  
+}
+.tube1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -130px ;
+}
+.Youtube-cont{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+  margin-bottom: 120px;
+  margin-top: 70px;
+}
+.Ycont{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Ycont p{
+  font-size: 2rem;
+  font-weight: bold;
+  color: #40C7B8;
+  text-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.form-container{
+  height: 90vh;
+  /* background: transparent; */
+  background-size: cover;
+  background-position: centre;
+  background-repeat: no-repeat;
+}
+
+
+/* .imgg{
+  height: 10px;
+  width: 10px;
+} */

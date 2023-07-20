@@ -1,0 +1,75 @@
+
+.P-C{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    background-color: #001824;
+    margin-bottom: 60px;
+    
+}
+.S-C{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white !important;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: rgba(252, 252, 252, 0.2) 0px 7px 29px 0px;
+}
+.conceive-box
+{
+    padding: 20px 120px;
+    border: 2px white solid;
+    border-radius: 10px;
+    background-color: #40C7B8;
+    color: white;
+
+}
+.B-C{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.B-C p{
+    margin: 0;
+    padding: 10px;
+}
+.BT{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.B-C button{
+    background: transparent;
+    
+    width: fit-content;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+}
+.B-C img{
+    height: 4rem;
+}
+.B-C svg{
+    height: 40px;
+    font-size: 4rem;
+    
+}
+.conceive-box h2{
+    margin: 0;
+    padding: 0;
+    color: fff;
+}
+.amz svg{
+    z-index: 10;
+    padding: 9px 0;
+    margin: none;
+    border: none ;
+    border-radius: 100%;
+    background-color: white;
+}
+
+

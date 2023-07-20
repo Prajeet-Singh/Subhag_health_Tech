@@ -1,0 +1,29 @@
+.sslider-containers {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .sslider-tracks {
+    display: flex;
+  }
+  
+  .sslider-items {
+    flex: 0 0 100%;
+  }
+  
+  .sslider-items img {
+    width: 20%;
+    height: 10vh;
+    object-fit: cover;
+  }
+  
+  /* Add animation to make the loop smooth */
+  @keyframes slideAnimations {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-600%);
+    }
+  }
+  

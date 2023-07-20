@@ -1,0 +1,80 @@
+
+.aP-C{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    background-color: #001824;
+    
+}
+.aS-C{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.aconceive-box
+{
+    padding: 20px 120px;
+    border: 2px white solid;
+    border-radius: 10px;
+    background-color: #40C7B8;
+    color: white;
+
+}
+.aB-C{
+    font-size: 1.5rem;
+    
+}
+
+.aBT{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+/* .aB-C button{
+    background: #40C7B8;
+    
+    width: 10rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    align-items: center;
+    padding: 5px;
+} */
+.aB-C img{
+    height: 3rem;
+}
+.aB-C svg{
+    height: 40px;
+    font-size: 3rem;
+}
+.aconceive-box h2{
+    margin: 0;
+    padding: 0;
+}
+
+.atn{
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    padding: 8px 20px;
+    background-color: white;
+    color: #001824;
+    border: none;
+    font-weight: bold;
+    font-size: large;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+
+.aI-C img{
+    margin-left: 100px;
+}
